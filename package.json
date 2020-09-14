@@ -1,0 +1,25 @@
+{
+  "name": "es-to-cjs",
+  "version": "1.0.0",
+  "description": "es6 模块标准转译到 commonjs 模块标准",
+  "main": "command/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "es-to-cjs": "bin/begin"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gumuqi/es-to-cjs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gumuqi/es-to-cjs/issues"
+  },
+  "homepage": "https://github.com/gumuqi/es-to-cjs#readme",
+  "dependencies": {
+    "commander": "^6.1.0"
+  }
+}
